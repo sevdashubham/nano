@@ -11,9 +11,12 @@ var ctrlAuth = require('../controllers/authentication');
 // profile
 router.get('/profile', auth, ctrlProfile.profileRead);
 router.get('/getnotes', auth, ctrlProfile.getNotes);
-router.get('/addnote', auth, ctrlProfile.addNote);
-router.get('/updatenote', auth, ctrlProfile.updateNote);
-router.get('/deletenote', auth, ctrlProfile.deleteNote);
+router.get('/getlabels', auth, ctrlProfile.getLabels);
+router.post('/addnote', auth, ctrlProfile.addNote);
+router.put('/updatenote', auth, ctrlProfile.updateNote);
+router.delete('/deletenote/:id', auth, ctrlProfile.deleteNote);
+router.get('/addlabel/:label', auth, ctrlProfile.addLabel);
+router.delete('/deletelabel/:label', auth, ctrlProfile.deleteLabel);
 
 // notes
 

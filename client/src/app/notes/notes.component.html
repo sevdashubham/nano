@@ -1,3 +1,8 @@
-<p>
-  hello
-</p>
+<div *ngFor="let noteModel of noteModels">
+  <h3>{{noteModel?.title}}</h3>
+  <h4>{{noteModel?.labels}}</h4>
+  <h5>{{noteModel?._id}}</h5>
+</div>
+<div *ngFor="let label of labelModel.labels">
+  <h3>{{label}}</h3>
+</div>

@@ -13,6 +13,7 @@ import {BrowserAnimationsModule} from "@angular/platform-browser/animations";
 import {MatButtonModule, MatInputModule, MatSnackBarModule} from "@angular/material";
 import { NotesComponent } from './notes/notes.component';
 import {DataService} from "./data.service";
+import {MatCardModule} from '@angular/material/card';
 
 const routes: Routes = [
   { path: '', component: LandingPageComponent },
@@ -31,6 +32,7 @@ const routes: Routes = [
     BrowserAnimationsModule,
     HttpClientModule,
     MatSnackBarModule,
+    MatCardModule,
     MatInputModule,
     MatButtonModule,
     FormsModule,

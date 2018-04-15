@@ -1,5 +1,6 @@
 export class NoteModel{
   constructor(){}
+  _id: string;
   title: string;
   content: string;
   dateCreated: string;

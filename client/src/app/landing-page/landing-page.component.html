@@ -1,0 +1,141 @@
+<!-- Header (top bar) -->
+<header class="header">
+  <div class="container">
+    <div class="row">
+      <div class="brand">
+        <a href="#"><i class="material-icons">note_add</i>Notify</a>
+      </div>
+    </div>
+  </div>
+</header>
+<!-- /.Header (top bar) -->
+
+
+<!-- Intro container -->
+<div class="container intro-container" id="intro">
+
+  <div class="row text-center intro-text">
+    <h5>The best preparation for tomorrow is doing your best today with Notify</h5>
+  </div>
+
+  <div class="intro-items">
+    <div class="row">
+      <div class="col-md" style="text-align: center">
+        <h3>Login</h3>
+        <!-- Signin form -->
+        <form [formGroup]="lForm" #myControl="ngForm">
+          <div>
+            <mat-form-field class="example-full-width input-form-top">
+              <input matInput placeholder="EMAIL ADDRESS" formControlName="email" required
+                     pattern="^[^\s@]+@[^\s@]+\.[^\s@]{2,}$" name="email" type="email"
+                     [(ngModel)]="signinCredentials.email">
+              <mat-error>Enter valid email</mat-error>
+            </mat-form-field>
+          </div>
+          <div>
+            <mat-form-field class="example-full-width input-form">
+              <input matInput placeholder="PASSWORD" formControlName="password" required
+                     pattern=".{8,}" name="password" type="password"
+                     [(ngModel)]="signinCredentials.password">
+              <mat-error>minimum 8 letters</mat-error>
+            </mat-form-field>
+          </div>
+          <div align="center">
+            <button mat-button class="button-signup-top button-next" [disabled]="!lForm.valid" (click)="login(lForm)">
+              login
+            </button>
+          </div>
+        </form>
+      </div>
+      <div class="col-md" style="text-align: center">
+        <!-- Register form -->
+        <h3>SignUp</h3>
+        <form [formGroup]="rForm" #myControl="ngForm">
+          <div>
+
+            <mat-form-field class="example-full-width input-form-top">
+              <input matInput placeholder="name" formControlName="name" required name="name" type="text"
+                     [(ngModel)]="registerCredentials.name">
+              <mat-error>Enter name Please</mat-error>
+            </mat-form-field>
+          </div>
+          <div>
+            <mat-form-field class="example-full-width input-form-top">
+              <input matInput placeholder="EMAIL ADDRESS" formControlName="email" required
+                     pattern="^[^\s@]+@[^\s@]+\.[^\s@]{2,}$" name="email" type="email"
+                     [(ngModel)]="registerCredentials.email">
+              <mat-error>Enter valid email</mat-error>
+            </mat-form-field>
+          </div>
+          <div>
+            <mat-form-field class="example-full-width input-form">
+              <input matInput placeholder="PASSWORD" formControlName="password" required
+                     pattern=".{8,}" name="password" type="password"
+                     [(ngModel)]="registerCredentials.password">
+              <mat-error>minimum 8 letters</mat-error>
+            </mat-form-field>
+          </div>
+          <div align="center">
+            <button mat-button class="button-signup-top button-next" [disabled]="!rForm.valid" (click)="register(lForm)">
+              SignUp
+            </button>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+  <!-- /.Intro container -->
+
+</div>
+<!-- About container -->
+<div class="container about-container" id="about">
+  <div class="row text-center about">
+    <h3>What this is?</h3>
+    <p>
+      note-taking app to quickly capture what is on your mind - ideas, pictures, lists and more.
+      Built with MEAN stack (MongoDB, Express, AngularJS and Node.js).
+      The UX is largely based on Angular5
+      <br/><br/>
+    </p>
+  </div>
+</div>
+<!-- /.About container -->
+
+
+<!-- Details container -->
+<div class="container details-container" id="details">
+
+  <div class="row feature">
+    <div class="col-lg-7 feature-text">
+      <h3>Crisp, user-friendly design</h3>
+      <p>
+        The welcoming, clutter-free interface keeps you focussed on your work. In a minimal and vibrant space, nothing
+        but productivity flows in.
+      </p>
+    </div>
+  </div>
+
+
+</div>
+<!-- /.Details container -->
+
+
+<!-- Footer -->
+<footer class="footer">
+  <div class="container">
+    <div class="row text-center">
+      <p>
+        &copy; <span id="copyright-years">2018</span> notify &nbsp;&bull;&nbsp; <a
+        href="https://github.com/anirudhkhanna/ng-notes" target="_blank">GitHub</a>
+      </p>
+
+      <script>
+        var currYear = new Date().getFullYear();
+        if (currYear != '2018')
+          document.getElementById('copyright-years').appendChild(document.createTextNode(' - ' + currYear));
+      </script>
+
+      <p class="icon"><span class="fa fa-paperclip"></span></p>
+    </div>
+  </div>
+</footer>

@@ -1,4 +1,4 @@
-# MEAN Stack Authentication
+# MEAN Stack Notify
 
 To run, you just have MongoDB installed and running, and NodeJS installed.
 

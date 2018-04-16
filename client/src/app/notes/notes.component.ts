@@ -4,7 +4,6 @@ import {AuthenticationService} from "../authentication.service";
 import {NoteModel} from "../models/note.model";
 import {DataService} from "../data.service";
 import {LabelModel} from "../models/label.model";
-import {DialogNoteComponent} from "../dialog-note/dialog-note.component";
 import {DialogNoteDialogComponent} from "../dialog-note-dialog/dialog-note-dialog.component";
 
 @Component({
@@ -14,7 +13,7 @@ import {DialogNoteDialogComponent} from "../dialog-note-dialog/dialog-note-dialo
 })
 export class NotesComponent implements OnInit {
   @ViewChild('sidenav') public sidenav: MatSidenav;
-  noteShort:{
+  noteShort: {
     title: string;
     content: string;
   };
@@ -30,7 +29,7 @@ export class NotesComponent implements OnInit {
   noteModels: NoteModel[] = [];
   labels: Array<string> = [];
   labelModel = new LabelModel();
-  newWord ='';
+  newWord = '';
   note = {
     title: '',
     content: '',
@@ -86,7 +85,7 @@ export class NotesComponent implements OnInit {
     this.labelModel.labels.length = 0;
     this.labelModel.labels.push(this.newWord);
     this.sideBarBoolean = false;
-    this.dataService.addLabel( this.labelModel.labels[0]).subscribe(res => {
+    this.dataService.addLabel(this.labelModel.labels[0]).subscribe(res => {
         console.log(JSON.stringify(res));
         this.isAddLabel = false;
         this.newWord = '';
@@ -154,7 +153,7 @@ export class NotesComponent implements OnInit {
     this.dataService.updateNode(this.noteModels[int]).subscribe(res => {
         // let id = res['_id'];
         // this.router.navigate(['/notes']);
-      this.getNotes();
+        this.getNotes();
         console.log(JSON.stringify(res));
       }, (err) => {
         console.log(err);
@@ -169,13 +168,14 @@ export class NotesComponent implements OnInit {
         // let id = res['_id'];
         // this.router.navigate(['/notes']);
         console.log(JSON.stringify(res));
-      this.getNotes();
+        this.getNotes();
       }, (err) => {
         console.log(err);
         this.openSnackBar(err.message);
       }
     );
   }
+
   openDialog(i: number) {
     const dialogConfig = new MatDialogConfig();
 
@@ -191,21 +191,22 @@ export class NotesComponent implements OnInit {
 
 
     dialogRef.afterClosed().subscribe(
-      (data)=> {
-        this.noteShort = data;
+      (data) => {
         if (this.noteShort !== null) {
+          this.noteShort = data;
           this.updateNote(i)
-    }
-        console.log("Dialog output:", this.noteShort)
+        }
       }
     );
 
   }
+
   openSnackBar(message: string) {
     this.snackBar.open(message, ' OK ', {
       duration: 2500
     });
   }
+
   addLabelBoolean() {
     this.isAddLabel = !this.isAddLabel;
   }

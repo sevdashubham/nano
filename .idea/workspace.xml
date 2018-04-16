@@ -2,22 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5ff5f81d-6178-4027-a3a8-20ffd3ba3f10" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/client/src/app/app.component.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/client/src/app/common/searchFilter.pipe.ts" />
+      <change beforePath="$PROJECT_DIR$/.idea/MEAN-stack-authentication-master.iml" afterPath="$PROJECT_DIR$/.idea/MEAN-notify.iml" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/api/controllers/authentication.js" afterPath="$PROJECT_DIR$/api/controllers/authentication.js" />
-      <change beforePath="$PROJECT_DIR$/api/controllers/profile.js" afterPath="$PROJECT_DIR$/api/controllers/profile.js" />
-      <change beforePath="$PROJECT_DIR$/api/models/db.js" afterPath="$PROJECT_DIR$/api/models/db.js" />
-      <change beforePath="$PROJECT_DIR$/client/src/app/app.component.html" afterPath="$PROJECT_DIR$/client/src/app/app.component.html" />
-      <change beforePath="$PROJECT_DIR$/client/src/app/app.component.ts" afterPath="$PROJECT_DIR$/client/src/app/app.component.ts" />
-      <change beforePath="$PROJECT_DIR$/client/src/app/app.module.ts" afterPath="$PROJECT_DIR$/client/src/app/app.module.ts" />
-      <change beforePath="$PROJECT_DIR$/client/src/app/landing-page/landing-page.component.html" afterPath="$PROJECT_DIR$/client/src/app/landing-page/landing-page.component.html" />
-      <change beforePath="$PROJECT_DIR$/client/src/app/landing-page/landing-page.component.ts" afterPath="$PROJECT_DIR$/client/src/app/landing-page/landing-page.component.ts" />
-      <change beforePath="$PROJECT_DIR$/client/src/app/models/label.model.ts" afterPath="$PROJECT_DIR$/client/src/app/models/label.model.ts" />
-      <change beforePath="$PROJECT_DIR$/client/src/app/notes/notes.component.css" afterPath="$PROJECT_DIR$/client/src/app/notes/notes.component.css" />
-      <change beforePath="$PROJECT_DIR$/client/src/app/notes/notes.component.html" afterPath="$PROJECT_DIR$/client/src/app/notes/notes.component.html" />
       <change beforePath="$PROJECT_DIR$/client/src/app/notes/notes.component.ts" afterPath="$PROJECT_DIR$/client/src/app/notes/notes.component.ts" />
-      <change beforePath="$PROJECT_DIR$/client/src/notes-app.theme.scss" afterPath="$PROJECT_DIR$/client/src/notes-app.theme.scss" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -30,120 +17,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="notes.component.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/client/src/app/notes/notes.component.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="317">
-              <caret line="25" column="0" lean-forward="false" selection-start-line="25" selection-start-column="0" selection-end-line="29" selection-end-column="1" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="notes.component.ts" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/client/src/app/notes/notes.component.ts">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="310">
-              <caret line="154" column="21" lean-forward="false" selection-start-line="154" selection-start-column="21" selection-end-line="154" selection-end-column="21" />
-              <folding>
-                <element signature="e#0#59#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="data.service.ts" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/client/src/app/data.service.ts">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="330">
-              <caret line="26" column="8" lean-forward="false" selection-start-line="26" selection-start-column="8" selection-end-line="26" selection-end-column="8" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="folder.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/api/controllers/folder.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-45">
-              <caret line="1" column="4" lean-forward="false" selection-start-line="1" selection-start-column="4" selection-end-line="1" selection-end-column="4" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="dialog-note-dialog.component.ts" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/client/src/app/dialog-note-dialog/dialog-note-dialog.component.ts">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="555">
-              <caret line="37" column="6" lean-forward="false" selection-start-line="37" selection-start-column="6" selection-end-line="37" selection-end-column="6" />
-              <folding>
-                <element signature="e#0#56#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="dialog-note-dialog.component.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/client/src/app/dialog-note-dialog/dialog-note-dialog.component.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="5" column="19" lean-forward="false" selection-start-line="5" selection-start-column="19" selection-end-line="5" selection-end-column="19" />
-              <folding>
-                <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#textarea#0;n#mat-form-field#0;n#mat-dialog-content#0;n#div#0;n#!!top" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="authentication.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/api/controllers/authentication.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-611">
-              <caret line="63" column="15" lean-forward="false" selection-start-line="63" selection-start-column="9" selection-end-line="63" selection-end-column="15" />
-              <folding>
-                <marker date="1523820084982" expanded="true" signature="3502:3594" ph="..." />
-                <marker date="1523820084982" expanded="true" signature="3596:3602" ph=" " />
-                <marker date="1523820084982" expanded="true" signature="3671:3763" ph="..." />
-                <marker date="1523820084982" expanded="true" signature="3765:3771" ph=" " />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="authentication.service.ts" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/client/src/app/authentication.service.ts">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-645">
-              <caret line="4" column="41" lean-forward="false" selection-start-line="4" selection-start-column="41" selection-end-line="4" selection-end-column="41" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="landing-page.component.ts" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/client/src/app/landing-page/landing-page.component.ts">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="780">
-              <caret line="59" column="37" lean-forward="false" selection-start-line="59" selection-start-column="37" selection-end-line="59" selection-end-column="37" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="auth-guard.service.ts" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/client/src/app/auth-guard.service.ts">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf />
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
@@ -178,7 +52,6 @@
         <option value="$PROJECT_DIR$/client/src/app/data.service.ts" />
         <option value="$PROJECT_DIR$/client/src/app/app.component.ts" />
         <option value="$PROJECT_DIR$/client/src/app/app.component.css" />
-        <option value="$PROJECT_DIR$/api/controllers/authentication.js" />
         <option value="$PROJECT_DIR$/client/src/app/common/searchFilter.pipe.ts" />
         <option value="$PROJECT_DIR$/client/src/app/app.component.html" />
         <option value="$PROJECT_DIR$/client/src/notes-app.theme.scss" />
@@ -191,24 +64,25 @@
         <option value="$PROJECT_DIR$/client/src/app/notes/notes.component.html" />
         <option value="$PROJECT_DIR$/client/src/app/dialog-note-dialog/dialog-note-dialog.component.css" />
         <option value="$PROJECT_DIR$/client/src/app/dialog-note-dialog/dialog-note-dialog.component.ts" />
-        <option value="$PROJECT_DIR$/client/src/app/notes/notes.component.ts" />
         <option value="$PROJECT_DIR$/client/src/app/dialog-note-dialog/dialog-note-dialog.component.html" />
         <option value="$PROJECT_DIR$/api/controllers/profile.js" />
         <option value="$PROJECT_DIR$/client/src/app/landing-page/landing-page.component.ts" />
+        <option value="$PROJECT_DIR$/api/controllers/authentication.js" />
+        <option value="$PROJECT_DIR$/client/src/app/notes/notes.component.ts" />
       </list>
     </option>
   </component>
   <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
   <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER">
-    <package-json value="$PROJECT_DIR$/package.json" />
+    <package-json value="$PROJECT_DIR$/../notify/package.json" />
   </component>
   <component name="JsGulpfileManager">
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="NodeModulesDirectoryManager">
-    <handled-path value="$PROJECT_DIR$/client/node_modules" />
-    <handled-path value="$PROJECT_DIR$/node_modules" />
+    <handled-path value="$PROJECT_DIR$/../notify/client/node_modules" />
+    <handled-path value="$PROJECT_DIR$/../notify/node_modules" />
   </component>
   <component name="ProjectFrameBounds" fullScreen="true">
     <option name="width" value="1680" />
@@ -234,107 +108,107 @@
         <subPane>
           <expand>
             <path>
-              <item name="MEAN-stack-authentication-master" type="b2602c69:ProjectViewProjectNode" />
-              <item name="MEAN-stack-authentication-master" type="462c0819:PsiDirectoryNode" />
+              <item name="MEAN-notify" type="b2602c69:ProjectViewProjectNode" />
+              <item name="notify" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="MEAN-stack-authentication-master" type="b2602c69:ProjectViewProjectNode" />
-              <item name="MEAN-stack-authentication-master" type="462c0819:PsiDirectoryNode" />
+              <item name="MEAN-notify" type="b2602c69:ProjectViewProjectNode" />
+              <item name="notify" type="462c0819:PsiDirectoryNode" />
               <item name="api" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="MEAN-stack-authentication-master" type="b2602c69:ProjectViewProjectNode" />
-              <item name="MEAN-stack-authentication-master" type="462c0819:PsiDirectoryNode" />
+              <item name="MEAN-notify" type="b2602c69:ProjectViewProjectNode" />
+              <item name="notify" type="462c0819:PsiDirectoryNode" />
               <item name="api" type="462c0819:PsiDirectoryNode" />
               <item name="config" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="MEAN-stack-authentication-master" type="b2602c69:ProjectViewProjectNode" />
-              <item name="MEAN-stack-authentication-master" type="462c0819:PsiDirectoryNode" />
+              <item name="MEAN-notify" type="b2602c69:ProjectViewProjectNode" />
+              <item name="notify" type="462c0819:PsiDirectoryNode" />
               <item name="api" type="462c0819:PsiDirectoryNode" />
               <item name="controllers" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="MEAN-stack-authentication-master" type="b2602c69:ProjectViewProjectNode" />
-              <item name="MEAN-stack-authentication-master" type="462c0819:PsiDirectoryNode" />
+              <item name="MEAN-notify" type="b2602c69:ProjectViewProjectNode" />
+              <item name="notify" type="462c0819:PsiDirectoryNode" />
               <item name="api" type="462c0819:PsiDirectoryNode" />
               <item name="models" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="MEAN-stack-authentication-master" type="b2602c69:ProjectViewProjectNode" />
-              <item name="MEAN-stack-authentication-master" type="462c0819:PsiDirectoryNode" />
+              <item name="MEAN-notify" type="b2602c69:ProjectViewProjectNode" />
+              <item name="notify" type="462c0819:PsiDirectoryNode" />
               <item name="api" type="462c0819:PsiDirectoryNode" />
               <item name="routes" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="MEAN-stack-authentication-master" type="b2602c69:ProjectViewProjectNode" />
-              <item name="MEAN-stack-authentication-master" type="462c0819:PsiDirectoryNode" />
+              <item name="MEAN-notify" type="b2602c69:ProjectViewProjectNode" />
+              <item name="notify" type="462c0819:PsiDirectoryNode" />
               <item name="client" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="MEAN-stack-authentication-master" type="b2602c69:ProjectViewProjectNode" />
-              <item name="MEAN-stack-authentication-master" type="462c0819:PsiDirectoryNode" />
+              <item name="MEAN-notify" type="b2602c69:ProjectViewProjectNode" />
+              <item name="notify" type="462c0819:PsiDirectoryNode" />
               <item name="client" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="MEAN-stack-authentication-master" type="b2602c69:ProjectViewProjectNode" />
-              <item name="MEAN-stack-authentication-master" type="462c0819:PsiDirectoryNode" />
+              <item name="MEAN-notify" type="b2602c69:ProjectViewProjectNode" />
+              <item name="notify" type="462c0819:PsiDirectoryNode" />
               <item name="client" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="app" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="MEAN-stack-authentication-master" type="b2602c69:ProjectViewProjectNode" />
-              <item name="MEAN-stack-authentication-master" type="462c0819:PsiDirectoryNode" />
+              <item name="MEAN-notify" type="b2602c69:ProjectViewProjectNode" />
+              <item name="notify" type="462c0819:PsiDirectoryNode" />
               <item name="client" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="app" type="462c0819:PsiDirectoryNode" />
               <item name="common" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="MEAN-stack-authentication-master" type="b2602c69:ProjectViewProjectNode" />
-              <item name="MEAN-stack-authentication-master" type="462c0819:PsiDirectoryNode" />
+              <item name="MEAN-notify" type="b2602c69:ProjectViewProjectNode" />
+              <item name="notify" type="462c0819:PsiDirectoryNode" />
               <item name="client" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="app" type="462c0819:PsiDirectoryNode" />
               <item name="dialog-note" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="MEAN-stack-authentication-master" type="b2602c69:ProjectViewProjectNode" />
-              <item name="MEAN-stack-authentication-master" type="462c0819:PsiDirectoryNode" />
+              <item name="MEAN-notify" type="b2602c69:ProjectViewProjectNode" />
+              <item name="notify" type="462c0819:PsiDirectoryNode" />
               <item name="client" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="app" type="462c0819:PsiDirectoryNode" />
               <item name="dialog-note-dialog" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="MEAN-stack-authentication-master" type="b2602c69:ProjectViewProjectNode" />
-              <item name="MEAN-stack-authentication-master" type="462c0819:PsiDirectoryNode" />
+              <item name="MEAN-notify" type="b2602c69:ProjectViewProjectNode" />
+              <item name="notify" type="462c0819:PsiDirectoryNode" />
               <item name="client" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="app" type="462c0819:PsiDirectoryNode" />
               <item name="landing-page" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="MEAN-stack-authentication-master" type="b2602c69:ProjectViewProjectNode" />
-              <item name="MEAN-stack-authentication-master" type="462c0819:PsiDirectoryNode" />
+              <item name="MEAN-notify" type="b2602c69:ProjectViewProjectNode" />
+              <item name="notify" type="462c0819:PsiDirectoryNode" />
               <item name="client" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="app" type="462c0819:PsiDirectoryNode" />
               <item name="models" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="MEAN-stack-authentication-master" type="b2602c69:ProjectViewProjectNode" />
-              <item name="MEAN-stack-authentication-master" type="462c0819:PsiDirectoryNode" />
+              <item name="MEAN-notify" type="b2602c69:ProjectViewProjectNode" />
+              <item name="notify" type="462c0819:PsiDirectoryNode" />
               <item name="client" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="app" type="462c0819:PsiDirectoryNode" />
               <item name="notes" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="MEAN-stack-authentication-master" type="b2602c69:ProjectViewProjectNode" />
-              <item name="MEAN-stack-authentication-master" type="462c0819:PsiDirectoryNode" />
+              <item name="MEAN-notify" type="b2602c69:ProjectViewProjectNode" />
+              <item name="notify" type="462c0819:PsiDirectoryNode" />
               <item name="routes" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
@@ -375,19 +249,18 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1523801980499</updated>
-      <workItem from="1523801982144" duration="33051000" />
+      <workItem from="1523801982144" duration="33794000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="33051000" />
+    <option name="totallyTimeSpent" value="33794000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1680" height="1050" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info id="TypeScript" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24954791" sideWeight="0.5" order="3" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24954791" sideWeight="0.5" order="3" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
@@ -430,11 +303,6 @@
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
-    <option name="exactExcludedFiles">
-      <list>
-        <option value="$PROJECT_DIR$/client/node_modules/karma/config.tpl.js" />
-      </list>
-    </option>
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
@@ -452,7 +320,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/client/node_modules/@angular/router/src/router_module.d.ts">
+    <entry file="file://$PROJECT_DIR$/../notify/client/node_modules/@angular/router/src/router_module.d.ts">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="317">
           <caret line="78" column="21" lean-forward="false" selection-start-line="78" selection-start-column="21" selection-end-line="78" selection-end-column="21" />
@@ -468,7 +336,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/client/.angular-cli.json">
+    <entry file="file://$PROJECT_DIR$/../notify/client/.angular-cli.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="345">
           <caret line="23" column="29" lean-forward="false" selection-start-line="23" selection-start-column="29" selection-end-line="23" selection-end-column="29" />
@@ -476,7 +344,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/client/src/main.ts">
+    <entry file="file://$PROJECT_DIR$/../notify/client/src/main.ts">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -486,7 +354,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/client/src/index.html">
+    <entry file="file://$PROJECT_DIR$/../notify/client/src/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="165">
           <caret line="11" column="99" lean-forward="false" selection-start-line="11" selection-start-column="99" selection-end-line="11" selection-end-column="99" />
@@ -518,7 +386,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/routes/users.js">
+    <entry file="file://$PROJECT_DIR$/../notify/routes/users.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -526,7 +394,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/routes/index.js">
+    <entry file="file://$PROJECT_DIR$/../notify/routes/index.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -534,7 +402,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/api/models/users.js">
+    <entry file="file://$PROJECT_DIR$/../notify/api/models/users.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -542,7 +410,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/api/config/passport.js">
+    <entry file="file://$PROJECT_DIR$/../notify/api/config/passport.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -550,7 +418,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/api/models/Note.js">
+    <entry file="file://$PROJECT_DIR$/../notify/api/models/Note.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="495">
           <caret line="33" column="0" lean-forward="false" selection-start-line="33" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
@@ -558,7 +426,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/client/src/app/common/searchFilter.pipe.ts">
+    <entry file="file://$PROJECT_DIR$/../notify/client/src/app/common/searchFilter.pipe.ts">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
           <caret line="17" column="30" lean-forward="false" selection-start-line="17" selection-start-column="30" selection-end-line="17" selection-end-column="30" />
@@ -566,7 +434,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/client/src/app/app.component.css">
+    <entry file="file://$PROJECT_DIR$/../notify/client/src/app/app.component.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
           <caret line="4" column="13" lean-forward="false" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
@@ -574,7 +442,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/client/src/notes-app.theme.scss">
+    <entry file="file://$PROJECT_DIR$/../notify/client/src/notes-app.theme.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="443">
           <caret line="137" column="14" lean-forward="false" selection-start-line="137" selection-start-column="7" selection-end-line="137" selection-end-column="14" />
@@ -582,7 +450,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/client/src/app/app.component.html">
+    <entry file="file://$PROJECT_DIR$/../notify/client/src/app/app.component.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
           <caret line="10" column="18" lean-forward="true" selection-start-line="6" selection-start-column="5" selection-end-line="10" selection-end-column="18" />
@@ -590,7 +458,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/client/src/app/landing-page/landing-page.component.html">
+    <entry file="file://$PROJECT_DIR$/../notify/client/src/app/landing-page/landing-page.component.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="645">
           <caret line="128" column="54" lean-forward="false" selection-start-line="128" selection-start-column="54" selection-end-line="128" selection-end-column="54" />
@@ -598,7 +466,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/client/src/app/app.component.ts">
+    <entry file="file://$PROJECT_DIR$/../notify/client/src/app/app.component.ts">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
           <caret line="5" column="38" lean-forward="false" selection-start-line="5" selection-start-column="38" selection-end-line="5" selection-end-column="38" />
@@ -606,7 +474,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/client/src/app/landing-page/landing-page.component.css">
+    <entry file="file://$PROJECT_DIR$/../notify/client/src/app/landing-page/landing-page.component.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-2714">
           <caret line="26" column="21" lean-forward="false" selection-start-line="26" selection-start-column="14" selection-end-line="26" selection-end-column="21" />
@@ -614,7 +482,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/api/models/Label.js">
+    <entry file="file://$PROJECT_DIR$/../notify/api/models/Label.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
           <caret line="12" column="0" lean-forward="false" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
@@ -622,7 +490,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/client/src/app/models/label.model.ts">
+    <entry file="file://$PROJECT_DIR$/../notify/client/src/app/models/label.model.ts">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
           <caret line="4" column="17" lean-forward="false" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
@@ -630,7 +498,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/api/routes/index.js">
+    <entry file="file://$PROJECT_DIR$/../notify/api/routes/index.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
           <caret line="17" column="57" lean-forward="false" selection-start-line="17" selection-start-column="49" selection-end-line="17" selection-end-column="57" />
@@ -638,7 +506,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/api/models/db.js">
+    <entry file="file://$PROJECT_DIR$/../notify/api/models/db.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
           <caret line="6" column="34" lean-forward="false" selection-start-line="6" selection-start-column="34" selection-end-line="6" selection-end-column="34" />
@@ -646,7 +514,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/client/src/app/dialog-note/dialog-note.component.html">
+    <entry file="file://$PROJECT_DIR$/../notify/client/src/app/dialog-note/dialog-note.component.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -654,17 +522,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/client/src/app/dialog-note/dialog-note.component.ts">
+    <entry file="file://$PROJECT_DIR$/../notify/client/src/app/dialog-note/dialog-note.component.ts">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
           <caret line="10" column="32" lean-forward="false" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="32" />
           <folding>
-            <element signature="e#0#42#0" expanded="true" />
+            <element signature="e#0#42#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/client/src/app/app.module.ts">
+    <entry file="file://$PROJECT_DIR$/../notify/client/src/app/app.module.ts">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="525">
           <caret line="55" column="29" lean-forward="false" selection-start-line="55" selection-start-column="4" selection-end-line="55" selection-end-column="29" />
@@ -672,30 +540,22 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/client/src/app/notes/notes.component.html">
+    <entry file="file://$PROJECT_DIR$/../notify/client/src/app/notes/notes.component.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
           <caret line="8" column="53" lean-forward="false" selection-start-line="8" selection-start-column="35" selection-end-line="8" selection-end-column="53" />
           <folding>
-            <element signature="n#style#0;n#mat-sidenav#0;n#mat-sidenav-container#0;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#mat-sidenav-content#0;n#mat-sidenav-container#0;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#mat-sidenav-content#0;n#mat-sidenav-container#0;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#0;n#mat-sidenav-content#0;n#mat-sidenav-container#0;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#li#2;n#ul#0;n#div#2;n#div#0;n#mat-sidenav-content#0;n#mat-sidenav-container#0;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#1;n#mat-sidenav-content#0;n#mat-sidenav-container#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#mat-sidenav#0;n#mat-sidenav-container#0;n#div#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#mat-sidenav-content#0;n#mat-sidenav-container#0;n#div#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#div#0;n#mat-sidenav-content#0;n#mat-sidenav-container#0;n#div#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#mat-sidenav-content#0;n#mat-sidenav-container#0;n#div#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#li#2;n#ul#0;n#div#2;n#div#0;n#mat-sidenav-content#0;n#mat-sidenav-container#0;n#div#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#div#1;n#mat-sidenav-content#0;n#mat-sidenav-container#0;n#div#0;n#!!top" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/client/src/app/notes/notes.component.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="317">
-          <caret line="25" column="0" lean-forward="false" selection-start-line="25" selection-start-column="0" selection-end-line="29" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/src/app/dialog-note-dialog/dialog-note-dialog.component.css">
+    <entry file="file://$PROJECT_DIR$/../notify/client/src/app/dialog-note-dialog/dialog-note-dialog.component.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
           <caret line="4" column="11" lean-forward="false" selection-start-line="4" selection-start-column="11" selection-end-line="4" selection-end-column="11" />
@@ -703,28 +563,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/client/src/app/dialog-note-dialog/dialog-note-dialog.component.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="555">
-          <caret line="37" column="6" lean-forward="false" selection-start-line="37" selection-start-column="6" selection-end-line="37" selection-end-column="6" />
-          <folding>
-            <element signature="e#0#56#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/src/app/dialog-note-dialog/dialog-note-dialog.component.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="19" lean-forward="false" selection-start-line="5" selection-start-column="19" selection-end-line="5" selection-end-column="19" />
-          <folding>
-            <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#textarea#0;n#mat-form-field#0;n#mat-dialog-content#0;n#div#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/src/app/models/note.model.ts">
+    <entry file="file://$PROJECT_DIR$/../notify/client/src/app/models/note.model.ts">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="13" lean-forward="false" selection-start-line="0" selection-start-column="13" selection-end-line="0" selection-end-column="13" />
@@ -732,7 +571,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/api/controllers/profile.js">
+    <entry file="file://$PROJECT_DIR$/../notify/api/controllers/profile.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1725">
           <caret line="115" column="38" lean-forward="false" selection-start-line="115" selection-start-column="38" selection-end-line="115" selection-end-column="38" />
@@ -740,7 +579,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/api/controllers/note.js">
+    <entry file="file://$PROJECT_DIR$/../notify/api/controllers/note.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-180">
           <caret line="14" column="48" lean-forward="true" selection-start-line="14" selection-start-column="48" selection-end-line="14" selection-end-column="48" />
@@ -748,54 +587,15 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/client/src/app/notes/notes.component.ts">
+    <entry file="file://$PROJECT_DIR$/../notify/client/src/app/landing-page/landing-page.component.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="310">
-          <caret line="154" column="21" lean-forward="false" selection-start-line="154" selection-start-column="21" selection-end-line="154" selection-end-column="21" />
-          <folding>
-            <element signature="e#0#59#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/src/app/data.service.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="26" column="8" lean-forward="false" selection-start-line="26" selection-start-column="8" selection-end-line="26" selection-end-column="8" />
+        <state relative-caret-position="825">
+          <caret line="59" column="37" lean-forward="false" selection-start-line="59" selection-start-column="37" selection-end-line="59" selection-end-column="37" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/api/controllers/folder.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-45">
-          <caret line="1" column="4" lean-forward="false" selection-start-line="1" selection-start-column="4" selection-end-line="1" selection-end-column="4" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/api/controllers/authentication.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-611">
-          <caret line="63" column="15" lean-forward="false" selection-start-line="63" selection-start-column="9" selection-end-line="63" selection-end-column="15" />
-          <folding>
-            <marker date="1523820084982" expanded="true" signature="3502:3594" ph="..." />
-            <marker date="1523820084982" expanded="true" signature="3596:3602" ph=" " />
-            <marker date="1523820084982" expanded="true" signature="3671:3763" ph="..." />
-            <marker date="1523820084982" expanded="true" signature="3765:3771" ph=" " />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/src/app/auth-guard.service.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/src/app/authentication.service.ts">
+    <entry file="file://$PROJECT_DIR$/../notify/client/src/app/authentication.service.ts">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-645">
           <caret line="4" column="41" lean-forward="false" selection-start-line="4" selection-start-column="41" selection-end-line="4" selection-end-column="41" />
@@ -803,10 +603,71 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/client/src/app/landing-page/landing-page.component.ts">
+    <entry file="file://$PROJECT_DIR$/../notify/client/src/app/dialog-note-dialog/dialog-note-dialog.component.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="780">
-          <caret line="59" column="37" lean-forward="false" selection-start-line="59" selection-start-column="37" selection-end-line="59" selection-end-column="37" />
+        <state relative-caret-position="75">
+          <caret line="5" column="19" lean-forward="false" selection-start-line="5" selection-start-column="19" selection-end-line="5" selection-end-column="19" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#textarea#0;n#mat-form-field#0;n#mat-dialog-content#0;n#div#0;n#!!top" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../notify/client/src/app/auth-guard.service.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../notify/client/src/app/dialog-note-dialog/dialog-note-dialog.component.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="555">
+          <caret line="37" column="6" lean-forward="false" selection-start-line="37" selection-start-column="6" selection-end-line="37" selection-end-column="6" />
+          <folding>
+            <element signature="e#0#56#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../notify/api/controllers/folder.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-45">
+          <caret line="1" column="4" lean-forward="false" selection-start-line="1" selection-start-column="4" selection-end-line="1" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../notify/client/src/app/data.service.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="26" column="8" lean-forward="false" selection-start-line="26" selection-start-column="8" selection-end-line="26" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../notify/client/src/app/notes/notes.component.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="317">
+          <caret line="25" column="0" lean-forward="false" selection-start-line="25" selection-start-column="0" selection-end-line="29" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../notify/client/src/app/notes/notes.component.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="49" lean-forward="false" selection-start-line="5" selection-start-column="49" selection-end-line="5" selection-end-column="49" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../notify/api/controllers/authentication.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1425">
+          <caret line="95" column="29" lean-forward="false" selection-start-line="95" selection-start-column="29" selection-end-line="95" selection-end-column="29" />
           <folding />
         </state>
       </provider>

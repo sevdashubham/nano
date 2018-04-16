@@ -114,11 +114,9 @@ module.exports.addNote = function(req, res) {
     note.save(function(err) {
         if(err) {
             res.status(401).json(err);
-            console.log('notes nhi aaye fine mein');
         }
         else
             res.status(200).json(note);
-        console.log('notes aaye fine mein');
     });
 };
 

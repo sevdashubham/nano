@@ -14,6 +14,11 @@ import {MatButtonModule, MatInputModule, MatSnackBarModule} from "@angular/mater
 import { NotesComponent } from './notes/notes.component';
 import {DataService} from "./data.service";
 import {MatCardModule} from '@angular/material/card';
+import {SearchFilter} from "./common/searchFilter.pipe";
+import {MatSidenavModule} from '@angular/material/sidenav';
+import {MatDialogModule} from '@angular/material/dialog';
+import { DialogNoteComponent } from './dialog-note/dialog-note.component';
+import { DialogNoteDialogComponent } from './dialog-note-dialog/dialog-note-dialog.component';
 
 const routes: Routes = [
   { path: '', component: LandingPageComponent },
@@ -26,11 +31,15 @@ const routes: Routes = [
     AppComponent,
     ProfileComponent,
     LandingPageComponent,
-    NotesComponent
+    NotesComponent,
+    SearchFilter,
+    DialogNoteComponent,
+    DialogNoteDialogComponent
   ],
   imports: [
     BrowserAnimationsModule,
     HttpClientModule,
+    MatSidenavModule,
     MatSnackBarModule,
     MatCardModule,
     MatInputModule,
@@ -39,8 +48,12 @@ const routes: Routes = [
     ReactiveFormsModule,
     BrowserModule,
     FormsModule,
+    MatDialogModule,
     HttpClientModule,
     RouterModule.forRoot(routes),
+  ],
+  entryComponents: [
+    DialogNoteDialogComponent
   ],
   providers: [
     AuthenticationService,

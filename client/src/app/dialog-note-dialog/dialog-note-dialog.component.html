@@ -1,0 +1,18 @@
+<div style="padding: 40px">
+  <mat-form-field class="example-full-width">
+    <input matInput placeholder="title" [(ngModel)] = title>
+  </mat-form-field>
+
+<mat-dialog-content>
+
+  <mat-form-field class="example-full-width">
+    <textarea matInput style="height: 300px" placeholder="Textarea" [(ngModel)] = content>{{content}}</textarea>
+  </mat-form-field>
+
+</mat-dialog-content>
+
+<mat-dialog-actions>
+  <button class="mat-raised-button"(click)="close()">Close</button>
+  <button class="mat-raised-button mat-primary"(click)="save()">Save</button>
+</mat-dialog-actions>
+</div>

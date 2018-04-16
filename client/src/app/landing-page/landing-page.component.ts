@@ -39,9 +39,8 @@ export class LandingPageComponent implements OnInit {
   register(form: any) {
     this.authentication.register(this.registerCredentials).subscribe(
       res => {
-        // let id = res['_id'];
-        // this.router.navigate(['/notes']);
         console.log(JSON.stringify(res));
+        this.router.navigateByUrl('/note');
       }, (err) => {
         console.log(err);
         this.openSnackBar(err.message);
@@ -58,6 +57,7 @@ export class LandingPageComponent implements OnInit {
       this.router.navigateByUrl('/note');
     }, (err) => {
       console.error(err);
+      this.openSnackBar(err.message);
     });
   }
 }

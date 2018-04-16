@@ -4,7 +4,7 @@ var dbURI = 'mongodb://localhost/meanAuth';
 if (process.env.NODE_ENV === 'production') {
   dbURI = process.env.MONGOLAB_URI;
 }
-
+mongoose.Promise = global.Promise;
 mongoose.connect(dbURI, { useMongoClient: true });
 
 // CONNECTION EVENTS

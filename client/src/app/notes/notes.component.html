@@ -1,8 +1,66 @@
-<div *ngFor="let noteModel of noteModels">
-  <h3>{{noteModel?.title}}</h3>
-  <h4>{{noteModel?.labels}}</h4>
-  <h5>{{noteModel?._id}}</h5>
-</div>
-<div *ngFor="let label of labelModel.labels">
-  <h3>{{label}}</h3>
+<div *ngIf="isViewLoaded" class="row container-fluid-margin">
+  <mat-sidenav-container class="example-container">
+    <mat-sidenav #sidenav mode="over" style=" padding: 30px 40px 0 30px">
+      <div *ngIf="sideBarBoolean">
+        <h2>Folders</h2>
+        <button mat-icon-button (click)="addLabelBoolean()"><i class="material-icons">&#xE22B;</i></button>
+        <div *ngIf="isAddLabel">
+          <form class="example-form" >
+            <mat-form-field class="example-full-width">
+              <input matInput placeholder="new folder" value="" name="folder" [(ngModel)]="newWord">
+            </mat-form-field>
+            <button mat-icon-button (click)="addLabel()"><i class="material-icons">&#xE876;</i></button>
+          </form>
+        </div>
+        <div *ngFor="let label of labelModel.labels; let i = index">
+          <h4>{{label}}</h4><i (click)="removeLabel(i)" class="material-icons">&#xE5CD;</i>
+        </div>
+        <div>
+        </div>
+      </div>
+    </mat-sidenav>
+    <mat-sidenav-content style="background: white">
+      <div class="row" style="background: #00BCD4">
+        <div class="col-3" style="margin: 10px 0 0 10px">
+          <i class="material-icons" (click)="toggleSideNav()">menu</i>
+          <h2>Notify</h2>
+        </div>
+        <div class="col-6">
+          <mat-form-field class="example-full-width">
+            <input matInput [(ngModel)]="searchText" placeholder="search" aria-label="Address">
+          </mat-form-field>
+        </div>
+        <div class="col-2">
+          <ul class="row">
+            <li class="col-sm" *ngIf="!auth.isLoggedIn()"><a routerLink="/"><h3>Sign in</h3></a></li>
+            <li class="col-sm" *ngIf="auth.isLoggedIn()"><a routerLink="/profile"><h3>{{
+              auth.getUserDetails()?.name}}</h3></a></li>
+            <li class="col-sm" style="cursor: pointer" *ngIf="auth.isLoggedIn()"><a (click)="auth.logout()"><h3>
+              Logout</h3></a></li>
+          </ul>
+        </div>
+      </div>
+      <div style="margin-top: 20px" *ngFor="let noteModel of noteModels | searchFilter: searchText : 'title'; let i =index;"
+           class=" full-width col-xl-3 col-lg-4 col-md-6 col-sm-12 col-xs-12">
+        <mat-card class="example-card">
+          <mat-card-header>
+            <div mat-card-avatar class="example-header-image"></div>
+            <mat-card-title><h3>{{noteModel?.title}}</h3></mat-card-title>
+            <mat-card-subtitle>{{noteModel?.labels}}</mat-card-subtitle>
+          </mat-card-header>
+          <mat-card-content>
+            <h4>{{noteModel?.content}}</h4>
+          </mat-card-content>
+          <mat-card-actions>
+            <button class="button-next" mat-button (click)="openDialog(i)">edit</button>
+            <button class="button-next" mat-button>share</button>
+            <button class="button-next" mat-button (click)="deleteNote(i)"><i class="material-icons">&#xE5CD;</i></button>
+          </mat-card-actions>
+        </mat-card>
+      </div>
+      <button class="custom-button" mat-fab color="accent" (click)="addNote()"><i class="material-icons">&#xE89C;</i>
+      </button>
+    </mat-sidenav-content>
+  </mat-sidenav-container>
+
 </div>
